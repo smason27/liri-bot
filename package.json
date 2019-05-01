@@ -1,0 +1,28 @@
+{
+  "name": "liri-bot",
+  "version": "1.0.0",
+  "description": "Liri-bot is a node application that takes in a users request and returns data based on that input. The available requests are limited to songs, movies, and concerts.",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smason27/liri-bot.git"
+  },
+  "author": "Steven Mason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smason27/liri-bot/issues"
+  },
+  "homepage": "https://github.com/smason27/liri-bot#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bandsintown": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "omdb": "^0.8.0",
+    "spotify": "^0.3.0"
+  },
+  "devDependencies": {}
+}
